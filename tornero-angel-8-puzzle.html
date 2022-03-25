@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Halma4.svg/220px-Halma4.svg.png">
+<link rel="stylesheet" type="text/css" href="css/halma.css">
+
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>8-Puzzle</title>
+    <script defer type="module" src="js/puzzle.js"></script>
+  </head>
+<body>
+  <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><img id='halma'src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Halma4.svg/220px-Halma4.svg.png" height="80" width="80"></li>
+          <li><a href='index.html'>Home</a></li>
+          <li><a href='tornero-angel-halma.html'>Halma</a></li>
+          <li><a href='tornero-angel-8-puzzle.html'>8-Puzzle</a></li>
+          <li><a href='out/index.html' target='_blank'>Documentation</a></li>
+          <li><a href='coverage/index.html' target='_blank'>Coverage</a></li>
+        </ul>
+      </nav>
+  <nav style="display: block;
+    float: right;
+    margin-top: 28px;
+    width: 30%;
+    box-sizing: border-box;
+    border-left: 1px solid #ccc;
+    padding-left: 16px;
+      text-align: left;">
+    <h1>Movimientos:</h1>
+    <canvas id="counter" width="300" height="60" style="background-color: rgb(255, 255, 255);"> </canvas>
+    <br><br><br>
+    <input type="button" style="background-color:rgb(255, 206, 45)" class="button" id="button1" value="Randomize">
+  </nav>
+  
+  <canvas class="board" id="puzzle" width="640" height="640" style="padding: 50px 220px;float: right;display: block; margin: 0 auto; text-align: center;background-color: rgb(240, 240, 240);"> </canvas>
+  <h1 style="font-size: 38px;">8-PUZZLE</h1>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <h1 style="font-size: 14px;">Universidad de La Laguna, Escuela Superior de Ingeniería y Tecnología, Grado en Ingeniería Informática, Programación de Aplicaciones Interactivas</h1>
+</body>
+
+</html>
