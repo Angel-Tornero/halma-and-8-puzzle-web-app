@@ -80,7 +80,6 @@ export class EightPuzzleModel {
     this.#counter = 0;
     this.#boxes = [];
     let number = 1;
-    let column = number;
     for (let i = 0; i < this.#SIZE; i++) {
       let row = [];
       let column = number;
